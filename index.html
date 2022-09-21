@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - [1] Correlation - Bubble</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg width="1000" height="1000">
+   <g class="title">
+     <text x="50" y="50">Bubblechart of Popular NBA players in Relation to FG%, PPG, and Salary for the 2020-21 NBA Season</text>
+   </g>
+   <g class="axis" stroke="black">
+     <!-- x-axis -->
+     <line x1="100" y1="100" x2="100" y2="500"/>
+     <!-- y-axis -->
+     <line x1="100" y1="500" x2="700" y2="500"/>
+   </g>
+   <g class="tickmarks" stroke="black">
+     <!-- x-axis -->
+     <line x1="200" y1="500" x2="200" y2="510"/>
+     <line x1="300" y1="500" x2="300" y2="510"/>
+     <line x1="400" y1="500" x2="400" y2="510"/>
+     <line x1="500" y1="500" x2="500" y2="510"/>
+     <line x1="600" y1="500" x2="600" y2="510"/>
+     <!-- y-axis -->
+     <line x1="90" y1="400" x2="100" y2="400"/>
+     <line x1="90" y1="300" x2="100" y2="300"/>
+     <line x1="90" y1="200" x2="100" y2="200"/>
+   </g>
+   <g class="axis labels">
+     <!-- x-axis -->
+     <text x="300" y="570">Field Goal Percentage (FG%)</text>
+     <text x="190" y="530">.45</text>
+     <text x="290" y="530">.48</text>
+     <text x="390" y="530">.51</text>
+     <text x="490" y="530">.54</text>
+     <text x="590" y="530">.57</text>
+     <!-- y-axis -->
+     <text transform="translate(40, 370) rotate(270)">Points per Game (PPG)</text>
+     <text transform="translate(80, 410) rotate(270)">20</text>
+     <text transform="translate(80, 310) rotate(270)">25</text>
+     <text transform="translate(80, 210) rotate(270)">30</text>
+   </g>
+   <g class="data">
+     <circle id="curry" cx="330" cy="205" r="43.0" fill="red"/>
+     <text x="315" y="205">Curry</text>
+     <circle id="antetokounmpo" cx="570" cy="242" r="27.5" fill="blue"/>
+     <text x="545" y="242">Giannis</text>
+     <circle id="james" cx="380" cy="294" r="39.2" fill="purple"/>
+     <text x="365" y="294">James</text>
+     <circle id="durant" cx="466" cy="211" r="39.0" fill="green"/>
+     <text x="445" y="211">Durant</text>
+     <circle id="harden" cx="295" cy="333" r="40.8" fill="yellow"/>
+     <text x="275" y="333">Harden</text>
+  </g>
+</svg>
+<!-- partial -->
+  
+</body>
+</html>
